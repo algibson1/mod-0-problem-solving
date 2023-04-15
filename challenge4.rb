@@ -9,6 +9,9 @@ destinations = ["New Zealand", "Antarctica", "Scotland", "India", "Iceland"]
 # This method already sorts in ascending/alphabetical order by default when given no parameters
 
 destinations.sort
+
+# This new array must now be assigned to a variable to save it 
+
 sorted_destinations = destinations.sort
 
 #Now that the elements are sorted, they each must be printed into sentences using interpolation. This will need to use the .each method to make sure the interpolation and printing is done to each element.
