@@ -9,9 +9,10 @@ destinations = ["New Zealand", "Antarctica", "Scotland", "India", "Iceland"]
 # This method already sorts in ascending/alphabetical order by default when given no parameters
 
 destinations.sort
+sorted_destinations = destinations.sort
 
 #Now that the elements are sorted, they each must be printed into sentences using interpolation. This will need to use the .each method to make sure the interpolation and printing is done to each element.
 
-destinations.each do |destination|
+sorted_destinations.each do |destination|
     p "I would love to visit #{destination} someday, it seems like an interesting place!"
 end
