@@ -12,8 +12,8 @@ new_sentence = []
  array.each do |word|
    new_sentence.push(word.capitalize)
  end
-p new_sentence.join(" ")
+ new_sentence.join(" ")
 end
 
-capitalize(sentence1)
+p capitalize(sentence1)
 
