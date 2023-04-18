@@ -2,6 +2,10 @@
 
 sentence1 = "Let's test out this new method"
 
+# The goal is to capitalize each word in a sentence. This will need to use the each command.
+# There is not a built in method in ruby to capitalize each word in a sentence, but there is a method to capitalize one word.
+# Therefore I must define a method that splits a string into individual words, creating an array of those words, then capitalizes each one individually. Then the method must parse the words in the array back together into a sentence.
+
 def capitalize(sentence)
 new_sentence = []
  array = sentence.split
